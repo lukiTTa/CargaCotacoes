@@ -12,7 +12,7 @@ namespace CargaCotacoes
             Schedule<Job>()
                 .NonReentrant()
                 .ToRunOnceAt(DateTime.Now.AddSeconds(2))
-                .AndEvery(5).Minutes();
+                .AndEvery(30).Seconds();
         }
     }
 

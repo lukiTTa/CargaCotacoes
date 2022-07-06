@@ -43,7 +43,7 @@ namespace CargaCotacoes
 
         public void ObterCotacoes(CotacoesContext context)
         {
-            List<string> stocks = new List<string> { "itub4", "vale3", "petr3" };
+            List<string> stocks = new List<string> { "itub4", "vale3", "petr4" };
             Console.WriteLine("Obtendo atualizações...");
 
             try
